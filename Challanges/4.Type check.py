@@ -8,5 +8,4 @@ def only_ints(x, y):
     else:
         return False 
 
-
 only_ints(1, 2)

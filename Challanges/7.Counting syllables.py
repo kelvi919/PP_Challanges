@@ -6,7 +6,8 @@ Your function should count the number of syllables and return it.
 """
 
 def count(string):
-    hyphens = 1
+    hyphens = 1 
+    
     for letter in string:
         if letter == "-":
             hyphens += 1

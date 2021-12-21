@@ -9,10 +9,8 @@ def double_letters(string):
     for index, letter in enumerate(string):
         print(string.index(letter))
 
-
         if string.index(letter) == index:
             print("double")
-
 
     print(len(string))
     print(string)
